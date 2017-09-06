@@ -9,8 +9,8 @@ PTR( Task );
 
 class Task {
 public:
-	Task();
-	virtual ~Task();
+	Task(){};
+	virtual ~Task(){};
 public:
 	virtual void Initialize(){ };
 	virtual void Update() = 0;
